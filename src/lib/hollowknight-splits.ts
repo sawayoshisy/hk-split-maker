@@ -66,7 +66,6 @@ function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "descriptio
     case "WhiteFragmentRight":        return ["King Fragment", qualifier];
     case "Zote1":                     return ["Vengefly King (Zote)", qualifier];
     case "BasinEntry":
-    case "CrystalPeakEntry":
     case "EnterGreenpath":
     case "EnterGreenpathWithOvercharm":
     case "EnterNKG":
