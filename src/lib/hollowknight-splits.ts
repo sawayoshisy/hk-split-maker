@@ -33,7 +33,7 @@ function parseDDSplitsDefinitions(): Map<string, SplitDefinition> {
   return splitMap;
 }
 
-function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "description"|"id">): [string, string] {
+function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "description" | "id">): [string, string] {
   const match = DESCRIPTION_NAME_REGEXP.exec(description);
   if (!match) {
     throw new Error(`Invalid Description: ${description}`);
@@ -98,7 +98,6 @@ function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "descriptio
     case "Pantheon":     return [name, "Boss"];
     case "Room":         return [name, "Transition"];
     case "Stag Station": return [`${name} Stag`, qualifier];
-    case "Trinket":      return [name, "Item"];
     case "Completed":
     case "Dreamgate":
     case "Lever":
