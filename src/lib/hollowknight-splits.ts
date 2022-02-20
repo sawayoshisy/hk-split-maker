@@ -82,6 +82,11 @@ function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "descriptio
     case "PathOfPainEntry":           return ["Enter Path of Pain", qualifier];
     case "RadianceBoss":
     case "HollowKnightBoss":          return [name, "Practice"];
+    case "BeastsDenTrapBench":        return ["Trap Bench", qualifier];
+    case "WatcherChandelier":         return ["Chandelier", qualifier];
+    case "Hegemol":                   return ["Herrah", qualifier];
+    case "Lurien":                    return ["Lurien", qualifier];
+    case "Monomon":                   return ["Monomon", qualifier];
     default: break;
   }
 
@@ -110,6 +115,7 @@ function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "descriptio
         return [name, "Essence"];
       }
       return [name, "Item"];
+    case "Old Dreamer Timing": return [name, "Dreamer"];
     default: break;
   }
 

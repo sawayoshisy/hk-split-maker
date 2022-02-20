@@ -1,22 +1,47 @@
 {
     "Main": [
         {
-            "fileName": "112",
-            "displayName": "112% APB",
+            "fileName": "112-comsob",
+            "displayName": "112% APB (comsob splits)",
             "data": {
                 "routeNotesURL": "https://pastebin.com/qznSrku9"
             }
         },
         {
-            "fileName": "107-early-gpz",
-            "displayName": "107% AB (Early GPZ)",
+            "fileName": "112-everything",
+            "displayName": "112% APB (all splits)",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/qznSrku9"
+            }
+        },
+        {
+            "fileName": "112-late-flukes",
+            "displayName": "112% APB (late Flukenest)"
+        },
+        {
+            "fileName": "107-early-gpz-comsob",
+            "displayName": "107% AB (early GPZ; comsob splits)",
             "data": {
                 "routeNotesURL": "https://pastebin.com/2KZrBXik"
             }
         },
         {
-            "fileName": "107-late-gpz",
-            "displayName": "107% AB (Late GPZ)",
+            "fileName": "107-early-gpz-everything",
+            "displayName": "107% AB (early GPZ; all splits)",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/2KZrBXik"
+            }
+        },
+        {
+            "fileName": "107-late-gpz-comsob",
+            "displayName": "107% AB (late GPZ; comsob splits)",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/bqRttPCc"
+            }
+        },
+        {
+            "fileName": "107-late-gpz-everything",
+            "displayName": "107% AB (late GPZ; all splits)",
             "data": {
                 "routeNotesURL": "https://pastebin.com/bqRttPCc"
             }
@@ -78,9 +103,10 @@
         },
         {
             "fileName": "te-cp",
-            "displayName": "True Ending (1.4+ Shriek)",
+            "displayName": "True Ending (SCSBCPTE)",
             "data": {
-                "routeNotesURL": "https://pastebin.com/AtjcrXph"
+                "routeNotesURL": "https://pastebin.com/bfru1T23",
+                "searchTerms": ["soul catcher", "steady body"]
             }
         },
         {
@@ -206,10 +232,17 @@
             "displayName": "0 Geo"
         },
         {
-            "fileName": "3vf",
-            "displayName": "3 Vessel Fragments",
+            "fileName": "3vf-kings-station",
+            "displayName": "3 Vessel Fragments (King's Station)",
             "data": {
                 "routeNotesURL": "https://pastebin.com/ZqDk8rQ0"
+            }
+        },
+        {
+            "fileName": "3vf-stag-nest",
+            "displayName": "3 Vessel Fragments (Stag Nest)",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/4mE0UWtG"
             }
         },
         {
@@ -228,6 +261,13 @@
             "displayName": "4 Mask Shards 0 Geo",
             "data": {
                 "routeNotesURL": "https://pastebin.com/9VGYYnxq"
+            }
+        },
+        {
+            "fileName": "8ms",
+            "displayName": "8 Mask Shards",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/ptWLryuc"
             }
         },
         {

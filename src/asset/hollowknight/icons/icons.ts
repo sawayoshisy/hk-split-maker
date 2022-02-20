@@ -86,8 +86,11 @@ import GreyPrinceEssence from "./Boss/GreyPrinceZote.png";
 import OnDefeatGPZ from "./Boss/GreyPrinceZote.png";
 import GruzMother from "./Boss/GruzMother.png";
 import HiveKnight from "./Boss/HiveKnight.png";
+import EnterHiveKnight from "./Boss/HiveKnight.png";
 import Hornet1 from "./Boss/Hornet1.png";
+import EnterHornet1 from "./Boss/Hornet1.png";
 import Hornet2 from "./Boss/Hornet1.png";
+import EnterHornet2 from "./Boss/Hornet1.png";
 import LostKin from "./Boss/BrokenVessel.png";
 import LostKinEssence from "./Boss/BrokenVessel.png";
 import MantisLords from "./Boss/MantisLords.png";
@@ -108,11 +111,14 @@ import HollowKnightBoss from "./Boss/HollowKnightBoss.png";
 import SheoPaintmaster from "./Boss/SheoPaintmaster.png";
 import SlyNailsage from "./Boss/SlyNailsage.png";
 import SoulMaster from "./Boss/SoulMaster.png";
+import EnterSoulMaster from "./Boss/SoulMaster.png";
+import SoulMasterEncountered from "./Boss/SoulMaster.png";
 import SoulTyrant from "./Boss/SoulMaster.png";
 import SoulTyrantEssence from "./Boss/SoulMaster.png";
 import SoulTyrantEssenceWithSanctumGrub from "./Boss/SoulMaster.png";
 import TraitorLord from "./Boss/TraitorLord.png";
 import TroupeMasterGrimm from "./Boss/TroupeMasterGrimm.png";
+import EnterTMG from "./Boss/TroupeMasterGrimm.png";
 import Uumuu from "./Boss/Uumuu.png";
 import BlackKnight from "./Boss/WatcherKnights.png";
 import WhiteDefender from "./Boss/WhiteDefender.png";
@@ -165,20 +171,26 @@ import NightmareKingGrimmP from "./Boss/NightmareKingGrimm.png";
 import Hegemol from "./Dreamer/Herrah.png";
 import Lurien from "./Dreamer/Lurien.png";
 import Monomon from "./Dreamer/Monomon.png";
+import HegemolDreamer from "./Dreamer/Herrah.png";
+import LurienDreamer from "./Dreamer/Lurien.png";
+import MonomonDreamer from "./Dreamer/Monomon.png";
 import Dreamer1 from "./Dreamer/Dreamer.png";
 import Dreamer2 from "./Dreamer/Dreamer.png";
 import Dreamer3 from "./Dreamer/Dreamer.png";
 import PreGrimmShop from "./Misc/Sly.png";
 import PreGrimmShopTrans from "./Misc/Sly.png";
 import SlyShopFinished from "./Misc/Sly.png";
+import AbyssDoor from "./Item/KingsBrand.png";
+import AbyssLighthouse from "./Enemy/Shade.png";
 import CanOvercharm from "./Achievement/Charmed.png";
 import UnchainedHollowKnight from "./Misc/BlackEgg.png";
 import WatcherChandelier from "./Misc/WatcherChandelier.png";
 import CityGateOpen from "./Item/CityKey.png";
 import CityGateAndMantisLords from "./Item/CityKey.png";
+import EndingSplit from "./Misc/Knight.png";
 import PlayerDeath from "./Enemy/Shade.png";
 import ShadeKilled from "./Enemy/Shade.png";
-import EndingSplit from "./Misc/Knight.png";
+import LumaflyLanternTransition from "./Item/LumaflyLantern.png";
 import FlowerQuest from "./Item/DelicateFlower.png";
 import FlowerRewardGiven from "./Achievement/Solace.png";
 import HappyCouplePlayerDataEvent from "./Achievement/HappyCouple.png";
@@ -368,97 +380,97 @@ import Ore3 from "./Item/PaleOre.png";
 import Ore4 from "./Item/PaleOre.png";
 import Ore5 from "./Item/PaleOre.png";
 import Ore6 from "./Item/PaleOre.png";
-import Grub1 from "./NPC/Grub.png";
-import Grub2 from "./NPC/Grub.png";
-import Grub3 from "./NPC/Grub.png";
-import Grub4 from "./NPC/Grub.png";
-import Grub5 from "./NPC/Grub.png";
-import Grub6 from "./NPC/Grub.png";
-import Grub7 from "./NPC/Grub.png";
-import Grub8 from "./NPC/Grub.png";
-import Grub9 from "./NPC/Grub.png";
-import Grub10 from "./NPC/Grub.png";
-import Grub11 from "./NPC/Grub.png";
-import Grub12 from "./NPC/Grub.png";
-import Grub13 from "./NPC/Grub.png";
-import Grub14 from "./NPC/Grub.png";
-import Grub15 from "./NPC/Grub.png";
-import Grub16 from "./NPC/Grub.png";
-import Grub17 from "./NPC/Grub.png";
-import Grub18 from "./NPC/Grub.png";
-import Grub19 from "./NPC/Grub.png";
-import Grub20 from "./NPC/Grub.png";
-import Grub21 from "./NPC/Grub.png";
-import Grub22 from "./NPC/Grub.png";
-import Grub23 from "./NPC/Grub.png";
-import Grub24 from "./NPC/Grub.png";
-import Grub25 from "./NPC/Grub.png";
-import Grub26 from "./NPC/Grub.png";
-import Grub27 from "./NPC/Grub.png";
-import Grub28 from "./NPC/Grub.png";
-import Grub29 from "./NPC/Grub.png";
-import Grub30 from "./NPC/Grub.png";
-import Grub31 from "./NPC/Grub.png";
-import Grub32 from "./NPC/Grub.png";
-import Grub33 from "./NPC/Grub.png";
-import Grub34 from "./NPC/Grub.png";
-import Grub35 from "./NPC/Grub.png";
-import Grub36 from "./NPC/Grub.png";
-import Grub37 from "./NPC/Grub.png";
-import Grub38 from "./NPC/Grub.png";
-import Grub39 from "./NPC/Grub.png";
-import Grub40 from "./NPC/Grub.png";
-import Grub41 from "./NPC/Grub.png";
-import Grub42 from "./NPC/Grub.png";
-import Grub43 from "./NPC/Grub.png";
-import Grub44 from "./NPC/Grub.png";
-import Grub45 from "./NPC/Grub.png";
-import Grub46 from "./NPC/Grub.png";
-import GrubBasinDive from "./NPC/Grub.png";
-import GrubBasinWings from "./NPC/Grub.png";
-import GrubCityBelowLoveTower from "./NPC/Grub.png";
-import GrubCityBelowSanctum from "./NPC/Grub.png";
-import GrubCityCollectorAll from "./NPC/Grub.png";
-import GrubCityCollector from "./NPC/Grub.png";
-import GrubCityGuardHouse from "./NPC/Grub.png";
-import GrubCitySanctum from "./NPC/Grub.png";
-import GrubCitySpire from "./NPC/Grub.png";
-import GrubCliffsBaldurShell from "./NPC/Grub.png";
-import GrubCrossroadsAcid from "./NPC/Grub.png";
-import GrubCrossroadsGuarded from "./NPC/Grub.png";
-import GrubCrossroadsSpikes from "./NPC/Grub.png";
-import GrubCrossroadsVengefly from "./NPC/Grub.png";
-import GrubCrossroadsWall from "./NPC/Grub.png";
-import GrubCrystalPeaksBottomLever from "./NPC/Grub.png";
-import GrubCrystalPeaksCrown from "./NPC/Grub.png";
-import GrubCrystalPeaksCrushers from "./NPC/Grub.png";
-import GrubCrystalPeaksCrystalHeart from "./NPC/Grub.png";
-import GrubCrystalPeaksMimics from "./NPC/Grub.png";
-import GrubCrystalPeaksMound from "./NPC/Grub.png";
-import GrubCrystalPeaksSpikes from "./NPC/Grub.png";
-import GrubDeepnestBeastsDen from "./NPC/Grub.png";
-import GrubDeepnestDark from "./NPC/Grub.png";
-import GrubDeepnestMimics from "./NPC/Grub.png";
-import GrubDeepnestNosk from "./NPC/Grub.png";
-import GrubDeepnestSpikes from "./NPC/Grub.png";
-import GrubFogCanyonArchives from "./NPC/Grub.png";
-import GrubFungalBouncy from "./NPC/Grub.png";
-import GrubFungalSporeShroom from "./NPC/Grub.png";
-import GrubGreenpathCornifer from "./NPC/Grub.png";
-import GrubGreenpathHunter from "./NPC/Grub.png";
-import GrubGreenpathMossKnight from "./NPC/Grub.png";
-import GrubGreenpathVesselFragment from "./NPC/Grub.png";
-import GrubHiveExternal from "./NPC/Grub.png";
-import GrubHiveInternal from "./NPC/Grub.png";
-import GrubKingdomsEdgeCenter from "./NPC/Grub.png";
-import GrubKingdomsEdgeOro from "./NPC/Grub.png";
-import GrubQueensGardensBelowStag from "./NPC/Grub.png";
-import GrubQueensGardensUpper from "./NPC/Grub.png";
-import GrubQueensGardensWhiteLady from "./NPC/Grub.png";
-import GrubRestingGroundsCrypts from "./NPC/Grub.png";
-import GrubWaterwaysCenter from "./NPC/Grub.png";
-import GrubWaterwaysHwurmps from "./NPC/Grub.png";
-import GrubWaterwaysIsma from "./NPC/Grub.png";
+import Grub1 from "./Misc/Grub.png";
+import Grub2 from "./Misc/Grub.png";
+import Grub3 from "./Misc/Grub.png";
+import Grub4 from "./Misc/Grub.png";
+import Grub5 from "./Misc/Grub.png";
+import Grub6 from "./Misc/Grub.png";
+import Grub7 from "./Misc/Grub.png";
+import Grub8 from "./Misc/Grub.png";
+import Grub9 from "./Misc/Grub.png";
+import Grub10 from "./Misc/Grub.png";
+import Grub11 from "./Misc/Grub.png";
+import Grub12 from "./Misc/Grub.png";
+import Grub13 from "./Misc/Grub.png";
+import Grub14 from "./Misc/Grub.png";
+import Grub15 from "./Misc/Grub.png";
+import Grub16 from "./Misc/Grub.png";
+import Grub17 from "./Misc/Grub.png";
+import Grub18 from "./Misc/Grub.png";
+import Grub19 from "./Misc/Grub.png";
+import Grub20 from "./Misc/Grub.png";
+import Grub21 from "./Misc/Grub.png";
+import Grub22 from "./Misc/Grub.png";
+import Grub23 from "./Misc/Grub.png";
+import Grub24 from "./Misc/Grub.png";
+import Grub25 from "./Misc/Grub.png";
+import Grub26 from "./Misc/Grub.png";
+import Grub27 from "./Misc/Grub.png";
+import Grub28 from "./Misc/Grub.png";
+import Grub29 from "./Misc/Grub.png";
+import Grub30 from "./Misc/Grub.png";
+import Grub31 from "./Misc/Grub.png";
+import Grub32 from "./Misc/Grub.png";
+import Grub33 from "./Misc/Grub.png";
+import Grub34 from "./Misc/Grub.png";
+import Grub35 from "./Misc/Grub.png";
+import Grub36 from "./Misc/Grub.png";
+import Grub37 from "./Misc/Grub.png";
+import Grub38 from "./Misc/Grub.png";
+import Grub39 from "./Misc/Grub.png";
+import Grub40 from "./Misc/Grub.png";
+import Grub41 from "./Misc/Grub.png";
+import Grub42 from "./Misc/Grub.png";
+import Grub43 from "./Misc/Grub.png";
+import Grub44 from "./Misc/Grub.png";
+import Grub45 from "./Misc/Grub.png";
+import Grub46 from "./Misc/Grub.png";
+import GrubBasinDive from "./Misc/Grub.png";
+import GrubBasinWings from "./Misc/Grub.png";
+import GrubCityBelowLoveTower from "./Misc/Grub.png";
+import GrubCityBelowSanctum from "./Misc/Grub.png";
+import GrubCityCollectorAll from "./Misc/Grub.png";
+import GrubCityCollector from "./Misc/Grub.png";
+import GrubCityGuardHouse from "./Misc/Grub.png";
+import GrubCitySanctum from "./Misc/Grub.png";
+import GrubCitySpire from "./Misc/Grub.png";
+import GrubCliffsBaldurShell from "./Misc/Grub.png";
+import GrubCrossroadsAcid from "./Misc/Grub.png";
+import GrubCrossroadsGuarded from "./Misc/Grub.png";
+import GrubCrossroadsSpikes from "./Misc/Grub.png";
+import GrubCrossroadsVengefly from "./Misc/Grub.png";
+import GrubCrossroadsWall from "./Misc/Grub.png";
+import GrubCrystalPeaksBottomLever from "./Misc/Grub.png";
+import GrubCrystalPeaksCrown from "./Misc/Grub.png";
+import GrubCrystalPeaksCrushers from "./Misc/Grub.png";
+import GrubCrystalPeaksCrystalHeart from "./Misc/Grub.png";
+import GrubCrystalPeaksMimics from "./Misc/Grub.png";
+import GrubCrystalPeaksMound from "./Misc/Grub.png";
+import GrubCrystalPeaksSpikes from "./Misc/Grub.png";
+import GrubDeepnestBeastsDen from "./Misc/Grub.png";
+import GrubDeepnestDark from "./Misc/Grub.png";
+import GrubDeepnestMimics from "./Misc/Grub.png";
+import GrubDeepnestNosk from "./Misc/Grub.png";
+import GrubDeepnestSpikes from "./Misc/Grub.png";
+import GrubFogCanyonArchives from "./Misc/Grub.png";
+import GrubFungalBouncy from "./Misc/Grub.png";
+import GrubFungalSporeShroom from "./Misc/Grub.png";
+import GrubGreenpathCornifer from "./Misc/Grub.png";
+import GrubGreenpathHunter from "./Misc/Grub.png";
+import GrubGreenpathMossKnight from "./Misc/Grub.png";
+import GrubGreenpathVesselFragment from "./Misc/Grub.png";
+import GrubHiveExternal from "./Misc/Grub.png";
+import GrubHiveInternal from "./Misc/Grub.png";
+import GrubKingdomsEdgeCenter from "./Misc/Grub.png";
+import GrubKingdomsEdgeOro from "./Misc/Grub.png";
+import GrubQueensGardensBelowStag from "./Misc/Grub.png";
+import GrubQueensGardensUpper from "./Misc/Grub.png";
+import GrubQueensGardensWhiteLady from "./Misc/Grub.png";
+import GrubRestingGroundsCrypts from "./Misc/Grub.png";
+import GrubWaterwaysCenter from "./Misc/Grub.png";
+import GrubWaterwaysHwurmps from "./Misc/Grub.png";
+import GrubWaterwaysIsma from "./Misc/Grub.png";
 import TreeMound from "./Misc/WhisperingRoot.png";
 import TreeCity from "./Misc/WhisperingRoot.png";
 import TreePeak from "./Misc/WhisperingRoot.png";
@@ -534,14 +546,6 @@ import PathOfPainTransition1 from "./Enemy/Wingmould.png";
 import PathOfPainTransition2 from "./Enemy/Wingmould.png";
 import PathOfPainTransition3 from "./Enemy/Wingmould.png";
 import DgateKingdomsEdgeAcid from "./Skill/DreamGate.png";
-import SoulMasterEncountered from "./Boss/SoulMaster.png";
-import EnterHornet1 from "./Boss/Hornet1.png";
-import EnterSoulMaster from "./Boss/SoulMaster.png";
-import EnterHornet2 from "./Boss/Hornet1.png";
-import EnterHiveKnight from "./Boss/HiveKnight.png";
-import EnterTMG from "./Boss/TroupeMasterGrimm.png";
-import VengeflyKingTrans from "./Boss/VengeflyKing.png";
-import MegaMossChargerTrans from "./Boss/MassiveMossCharger.png";
 import GodhomeBench from "./Misc/Godseeker.png";
 import GodhomeLoreRoom from "./Misc/Godseeker.png";
 import Pantheon1to4Entry from "./Misc/Godseeker.png";
@@ -588,11 +592,13 @@ import OnObtainMaskShard from "./Fragment/MaskShard.png";
 import OnObtainVesselFragment from "./Fragment/VesselFragment1.png";
 import OnObtainSimpleKey from "./Item/SimpleKey.png";
 import OnUseSimpleKey from "./Item/SimpleKey.png";
-import OnObtainGrub from "./NPC/Grub.png";
+import OnObtainGrub from "./Misc/Grub.png";
 import OnObtainPaleOre from "./Item/PaleOre.png";
 import AnyTransition from "./Misc/Knight.png";
 import TransitionAfterSaveState from "./Misc/Knight.png";
 import ManualSplit from "./Misc/Knight.png";
+import VengeflyKingTrans from "./Boss/VengeflyKing.png";
+import MegaMossChargerTrans from "./Boss/MassiveMossCharger.png";
 export default {
     AbyssShriek,
     CrystalHeart,
@@ -680,8 +686,11 @@ export default {
     OnDefeatGPZ,
     GruzMother,
     HiveKnight,
+    EnterHiveKnight,
     Hornet1,
+    EnterHornet1,
     Hornet2,
+    EnterHornet2,
     LostKin,
     LostKinEssence,
     MantisLords,
@@ -702,11 +711,14 @@ export default {
     SheoPaintmaster,
     SlyNailsage,
     SoulMaster,
+    EnterSoulMaster,
+    SoulMasterEncountered,
     SoulTyrant,
     SoulTyrantEssence,
     SoulTyrantEssenceWithSanctumGrub,
     TraitorLord,
     TroupeMasterGrimm,
+    EnterTMG,
     Uumuu,
     BlackKnight,
     WhiteDefender,
@@ -759,20 +771,26 @@ export default {
     Hegemol,
     Lurien,
     Monomon,
+    HegemolDreamer,
+    LurienDreamer,
+    MonomonDreamer,
     Dreamer1,
     Dreamer2,
     Dreamer3,
     PreGrimmShop,
     PreGrimmShopTrans,
     SlyShopFinished,
+    AbyssDoor,
+    AbyssLighthouse,
     CanOvercharm,
     UnchainedHollowKnight,
     WatcherChandelier,
     CityGateOpen,
     CityGateAndMantisLords,
+    EndingSplit,
     PlayerDeath,
     ShadeKilled,
-    EndingSplit,
+    LumaflyLanternTransition,
     FlowerQuest,
     FlowerRewardGiven,
     HappyCouplePlayerDataEvent,
@@ -1128,14 +1146,6 @@ export default {
     PathOfPainTransition2,
     PathOfPainTransition3,
     DgateKingdomsEdgeAcid,
-    SoulMasterEncountered,
-    EnterHornet1,
-    EnterSoulMaster,
-    EnterHornet2,
-    EnterHiveKnight,
-    EnterTMG,
-    VengeflyKingTrans,
-    MegaMossChargerTrans,
     GodhomeBench,
     GodhomeLoreRoom,
     Pantheon1to4Entry,
@@ -1187,4 +1197,6 @@ export default {
     AnyTransition,
     TransitionAfterSaveState,
     ManualSplit,
+    VengeflyKingTrans,
+    MegaMossChargerTrans,
 };
