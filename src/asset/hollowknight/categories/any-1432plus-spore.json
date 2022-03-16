@@ -14,7 +14,8 @@
         "Uumuu",
         "DeepnestSpa",
         "BeastsDenTrapBench",
-        "Hegemol"
+        "Hegemol",
+        "UnchainedHollowKnight"
     ],
     "ordered": true,
     "endTriggeringAutosplit": false,
@@ -22,8 +23,5 @@
         "name": "Hollow Knight",
         "icon": "HollowKnightBoss"
     },
-    "gameName": "Hollow Knight",
-    "variables": {
-        "glitch": "Current Patch NMG"
-    }
+    "gameName": "Hollow Knight"
 }

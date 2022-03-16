@@ -6,6 +6,16 @@ const SPLITS_DEFINITIONS_REGEXP =
     /\[Description\("(?<description>.+)"\), ToolTip\("(?<tooltip>.+)"\)\]\s+(?<id>\w+),/g;
 export const DESCRIPTION_NAME_REGEXP = /(?<name>.+)\s+\((?<qualifier>.+)\)/;
 
+let splitDefinitions: Map<string, SplitDefinition> | null = null;
+let groupedSplitDefinitions: Map<string, Array<SplitDefinition>> | null = null;
+
+interface SelectOptionGroup {
+  label: string;
+  options: Array<{ value: string; label: string; tooltip: string }>;
+}
+let selectOptionGroups: Array<SelectOptionGroup> | null = null;
+
+
 export interface SplitDefinition {
   description: string;
   tooltip: string;
@@ -35,14 +45,12 @@ function parseDDSplitsDefinitions(): Map<string, SplitDefinition> {
 
 function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "description" | "id">): [string, string] {
   const match = DESCRIPTION_NAME_REGEXP.exec(description);
-  if (!match) {
-    throw new Error(`Invalid Description: ${description}`);
-  }
-  if (!match.groups) {
-    throw new Error("RegExp match must have groups");
-  }
+  let name = description;
+  let qualifier = "Other";
 
-  const { name, qualifier, } = match.groups;
+  if (match && match.groups) {
+    ({ name, qualifier, } = match.groups);
+  }
 
   switch (id) {
     case "AspidHunter":               return ["Aspid Arena", qualifier];
@@ -128,8 +136,11 @@ function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "descriptio
 }
 
 export function parseSplitsDefinitions(): Map<string, SplitDefinition> {
+  if (splitDefinitions) {
+    return splitDefinitions;
+  }
   const matches = splits.matchAll(SPLITS_DEFINITIONS_REGEXP);
-  const definitions = new Map<string, SplitDefinition>();
+  splitDefinitions = new Map<string, SplitDefinition>();
   for (const match of matches) {
     if (!match.groups) {
       throw new Error("RegExp match must have groups");
@@ -141,10 +152,10 @@ export function parseSplitsDefinitions(): Map<string, SplitDefinition> {
       tooltip,
     } = match.groups;
     const [name, group] = getNameAndGroup({ description, id, });
-    definitions.set(id, {
+    splitDefinitions.set(id, {
       description,
       id,
-      tooltip,
+      tooltip: tooltip.replace("\\n", ".\n"),
       name,
       group,
     });
@@ -152,7 +163,41 @@ export function parseSplitsDefinitions(): Map<string, SplitDefinition> {
 
   const ddDefinitions = parseDDSplitsDefinitions();
 
-  return new Map([...definitions, ...ddDefinitions]);
+  return new Map([...splitDefinitions, ...ddDefinitions]);
+}
+
+function getGroupedSplitDefinitions() {
+  if (groupedSplitDefinitions) {
+    return groupedSplitDefinitions;
+  }
+  const splitDefs = parseSplitsDefinitions();
+  groupedSplitDefinitions = new Map<string, Array<SplitDefinition>>();
+  for (const split of splitDefs.values()) {
+    if (!groupedSplitDefinitions.has(split.group)) {
+      groupedSplitDefinitions.set(split.group, []);
+    }
+    const group = groupedSplitDefinitions.get(split.group) as Array<SplitDefinition>;
+    group.push(split);
+  }
+  return groupedSplitDefinitions;
+}
+
+export function getSelectOptionGroups(): Array<SelectOptionGroup> {
+  if (selectOptionGroups) {
+    return selectOptionGroups;
+  }
+  const groupedSplits = getGroupedSplitDefinitions();
+  selectOptionGroups = [...groupedSplits].map(([groupName, splitDefs]) => {
+    return Object.freeze({
+      label: groupName,
+      options: splitDefs.map(split => ({
+        value: split.id,
+        label: split.description,
+        tooltip: split.tooltip,
+      })),
+    });
+  });
+  return selectOptionGroups;
 }
 
 export function getIconURLs(): Map<string, string> {

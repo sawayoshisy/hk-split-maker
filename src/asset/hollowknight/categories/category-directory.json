@@ -61,8 +61,8 @@
             }
         },
         {
-            "fileName": "all-skills-cp",
-            "displayName": "All Skills (Current Patch NMG)",
+            "fileName": "all-skills-1432plus",
+            "displayName": "All Skills (1.4.3.2+)",
             "data": {
                 "routeNotesURL": "https://pastebin.com/qSGRDiBZ"
             }
@@ -77,11 +77,15 @@
         },
         {
             "fileName": "any",
-            "displayName": "Any%"
+            "displayName": "Any% (1.2.2.1)"
         },
         {
-            "fileName": "any-cp-spore",
-            "displayName": "Any% (1.4.3.2) w/ Spore Shroom"
+            "fileName": "any-1432plus",
+            "displayName": "Any% (1.4.3.2+ QGA)"
+        },
+        {
+            "fileName": "any-1432plus-spore",
+            "displayName": "Any% (1.4.3.2+ Spore Shroom)"
         },
         {
             "fileName": "any-ss",
@@ -102,8 +106,8 @@
             }
         },
         {
-            "fileName": "te-cp",
-            "displayName": "True Ending (SCSBCPTE)",
+            "fileName": "te-1432plus",
+            "displayName": "True Ending (1.4.3.2+ SCSB)",
             "data": {
                 "routeNotesURL": "https://pastebin.com/bfru1T23",
                 "searchTerms": ["soul catcher", "steady body"]
@@ -153,12 +157,24 @@
             "displayName": "Trial of the Warrior (colo1)"
         },
         {
+            "fileName": "colo1-waves",
+            "displayName": "Colo 1 w/ Autosplit Waves"
+        },
+        {
             "fileName": "colo2",
             "displayName": "Trial of the Conqueror (colo2)"
         },
         {
+            "fileName": "colo2-waves",
+            "displayName": "Colo 2 w/ Autosplit Waves"
+        },
+        {
             "fileName": "colo3",
             "displayName": "Trial of the Fool (colo3)"
+        },
+        {
+            "fileName": "colo3-waves",
+            "displayName": "Colo 3 w/ Autosplit Waves"
         },
         {
             "fileName": "p1",
@@ -224,6 +240,10 @@
             "data": {
                 "routeNotesURL": "https://pastebin.com/iX1FkYqm"
             }
+        },
+        {
+            "fileName": "rando-te",
+            "displayName": "Randomizer TE (add splits as desired)"
         }
     ],
     "Category Extensions": [
@@ -268,6 +288,20 @@
             "displayName": "8 Mask Shards",
             "data": {
                 "routeNotesURL": "https://pastebin.com/ptWLryuc"
+            }
+        },
+        {
+            "fileName": "8ms-fc-stag",
+            "displayName": "8 Mask Shards (FC Stag Route)",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/fTb71NVd"
+            }
+        },
+        {
+            "fileName": "12ms",
+            "displayName": "12 Mask Shards",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/uKqKzqqM"
             }
         },
         {
@@ -581,6 +615,13 @@
             "displayName": "Path of Pain%",
             "data": {
                 "routeNotesURL": "https://pastebin.com/KZSZd7XE"
+            }
+        },
+        {
+            "fileName": "pure-snail",
+            "displayName": "Pure Snail",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/iwSCLW0s"
             }
         },
         {
